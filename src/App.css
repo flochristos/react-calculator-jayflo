@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  background: rgb(2,0,36);
+  background: linear-gradient(28deg, rgba(2,0,36,1) 15%, rgba(3,70,84,1) 100%);
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 3%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.appName{
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputid{
+  width: 98%;
+  resize: none;
+  height: 10%;
+  text-align: right;
+  text-decoration:solid;
+  color:rgb(2,0,36) ;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.answer{
+  float: right;
+  color: white;
+  padding: 5px;
+}
+
+.calbut {
+  background-color: white; 
+  border: none;
+  color: #020024;
+  width: 55px;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:300;
+  margin: 10px;
+}
+.calbut:hover {
+  background-color: rgb(233, 223, 223);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+.calbut:focus{
+  border: 1px solid white;
+}
+
+.ansbut {
+  background-color: #ec1f47;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bolder;
+  margin: 10px;
+}
+.ansbut:hover {
+  background-color: #c91b3e; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.ansbut:focus{
+  border: 1px solid white;
+}
+
+.opbut {
+  background-color: #6beaff;
+  border: none;
+  color: black;
+  width: 55px;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:300;
+  margin: 10px;
+}
+
+.opbut:hover{
+  background-color: #2c8494;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.opbut:focus{
+  border: 1px solid white;
+}
